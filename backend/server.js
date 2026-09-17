@@ -14,7 +14,7 @@ const app = express();
 connectDB();
 
 // Middleware
-const allowedOrigins = (process.env.CLIENT_URL || "https://full-stack-event-management-npi1.onrender.com")
+const allowedOrigins = (process.env.CLIENT_URL || "https://full-stack-event-management-frontend.onrender.com")
   .split(",")
   .map((o) => o.trim());
 
